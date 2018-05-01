@@ -1,0 +1,13 @@
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.238"}
+        vvvvalvalval/scope-capture {:mvn/version "0.1.4"}
+        org.clojure/tools.nrepl    {:mvn/version "0.2.12"}
+        cider/cider-nrepl          {:mvn/version "0.16.0-SNAPSHOT"}
+        refactor-nrepl             {:mvn/version "2.4.0-SNAPSHOT"}
+        com.cemerick/piggieback   {:mvn/version "0.2.2"
+                                   :exclusions  [com.google.javascript/closure-compiler]}
+        figwheel-sidecar          {:mvn/version "0.5.16-SNAPSHOT"
+                                   :exclusions  [com.google.javascript/closure-compiler]}}}
+
+
+
+
